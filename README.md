@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Neural Radiance Fields (NeRF) can generate high-quality novel views synthesis using multi-view images, but its performance is limited in low-light scenes. To address the issues of insufffcient reconstruction accuracy and inadequate detail recovery in low-light environments, we propose a new NeRF framework for low-light scenes, called LowLight-NeRF. First, LowLight-NeRF introduces Ambient Light Simulation (ALS), which simulates natural ambient lighting information to restore missing lighting data in images, thereby effectively enhancing the natural appearance and 3D reconstruction accuracy of images in low-light scenes. Second, LowLight-NeRF introduces the Lowlight Area Enhancement (LAE) method, which adaptively selects low-light areas and enhances their brightness, thereby more accurately restoring detail information in low-light scenes. Finally, LowLight-NeRF employs a Custom Contrast-aware Loss (CA Loss) function to enhance the network’s ability to perceive image details in low-brightness regions, signiffcantly improving 3D reconstruction performance. Through qualitative and quantitative analysis, the experimental results show that our method signiffcantly improves the PSNR, SSIM, and LPIPS metrics, with the most notable improvement in PSNR, which is 3.93% higher than the SOTA average. The source code is available at: https://github.com/luckhui0505/LowLight-NeRF.
 
 ## 2. Comparison of Experimental Results
-![image](https://github.com/luckhui0505/LowLight-NeRF/figure1.jpg) 
+![image](https://github.com/luckhui0505/LowLight-NeRF/blob/main/figure1.jpg) 
 
 ## 3. Training Aleth-NeRF
 
