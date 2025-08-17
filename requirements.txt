@@ -1,0 +1,17 @@
+imageio
+tqdm
+requests
+configargparse
+scikit-image
+imageio-ffmpeg
+piqa==1.2.2
+wandb
+torch-scatter
+opencv-python
+gin-config
+gdown
+ninja
+torch_efficient_distloss
+matplotlib
+tensorboardX
+pytorch_lightning==1.6.0
